@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    border: 1px solid black;
+    background-color: darksalmon;
+    height: 5vh;
+    width: 100vw;
+}
+.logo{
+    display: inline-block;
+}
+.logo img{
+    height: 4vh;
+    width: 4vw;
+    margin-top: 0.5vh;
+    margin-left: 0.5vw;
+}
+.navlinks{
+    float: right;
+}
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.navlink{
+    display: inline-block;
+    margin-top: 0.5vh;
+    margin-right: 3vw;
+}
+.body{
+    background-image: url(gallery/background.jpg);
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+.bannertext{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.bannertext h2{
+    color: deeppink;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+}
+.bannertext span{
+    color: purple;
+}
+.bannertext a{
+    display: inline-block;
+    text-decoration: none;
+    color: grey;
+    background-color: aqua;
+    padding: 1em;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    background-color: deeppink;
+    height: 90vh;
+}
+.pictures{
+    width: 100%;
+    text-align: center;
+}
+.colm1{
+    display: inline-block;
+}
+.colm2{
+    display: inline-block;
+}
+.colm3{
+    display: inline-block;
+}
+.galleryimage img{
+    height: 35vh;
+}
+.footer{
+    display: inline-block;
+    color: green;
+    width: 100vw;
+    height: 5vh;
+    border: 1px solid black;
+}
+.copyright{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0.5vh;
+    margin-left: 0.5vw;
+}
+.sublinks{
+    float: right;
+    position: relative;
+    right: 3vw;
+    bottom: 1vh;
+}
+.sublink{
+    display: inline-block;
+}
+.sublinks img{
+    height: 3vh;
+    width: 3vw;
+}
